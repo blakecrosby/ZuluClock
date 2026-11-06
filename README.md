@@ -45,3 +45,7 @@ The whole app is in [`ZuluClock/ZuluClockApp.swift`](ZuluClock/ZuluClockApp.swif
 - `ZuluClockApp` declares a SwiftUI `MenuBarExtra` whose label is the formatted time.
 - `ZuluClockModel` is an `ObservableObject` that updates `now` every second with a `Timer` on the main run loop's `.common` mode, so it keeps ticking while menus are open. It reuses one cached `DateFormatter` set to `en_US_POSIX` and UTC.
 - The day offset comes from reading the year, month and day separately in the local and UTC calendars, then comparing those calendar dates in one neutral time zone.
+
+## License
+
+Released under the [MIT License](LICENSE).
