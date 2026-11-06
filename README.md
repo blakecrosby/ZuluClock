@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ZuluClock/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" alt="Zulu Clock app icon" width="128" height="128">
+</p>
+
 # Zulu Clock
 
 A tiny macOS menu bar app that shows the current time in UTC (Zulu time), formatted aviation-style:
